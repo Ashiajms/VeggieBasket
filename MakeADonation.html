@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width= device-width, initial scale= 1.0">
+	<meta http-equiv="X-UA-compatiable" content="ie=edge">
+	<title>The Veggie Basket</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+
+<body id="donationPage">
+	
+ <header>
+                            <!--Navigation Bar Logo-->
+
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+           <a class="navbar-brand" href="index.html"><img src="images/logos.png" alt="logo"></a>
+
+                           <!--Collapse button-->
+         <button class="navbar-toggler" type="button"
+             data-toggle="collapse" data-target="#collapseNav"
+             aria-controls="collapseNav" aria-expanded="false"
+             aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span> 
+         </button>
+        
+        <div class="collapse navbar-collapse" id="collapseNav">  
+          <div class="container-fluid">
+              <ul class="navbar-nav justify-content-end">
+                  <li class="nav-item"><a class="nav-link" id="aboutDropdown"href="about.html" title="about page">About</a></li>
+                  <li class="nav-item"><a class="nav-link" id="workDropdown"href="ourWork.html" title="our work page">Our Work</a></li>
+                  <li class="nav-item"><a class="nav-link" id="involvedDropdown"href="getInvolved.html" title="get involved page">Get Involved</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contactUs.html" title="contact us page">Contact Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="donate.html" title="donate page">Donate</a></li>
+              </ul>  
+        </div><!--container-fluid--> 
+      </div><!--collapse-->
+    </div><!--container-fluid-->
+  </nav>
+</div><!--bg-img-->
+
+
+</header>
+					<!-----------Payment Form---------->
+	<section class="container">
+		<div class="payment-form">
+			<h4>Donate with debit or credit card</h4>
+				<form>
+					<div class="form-group">
+						<select class="form-control" id="country">
+							<option value="1">Albania</option>
+							<option value="2">Algeria</option>
+							<option value="3">Andorra</option>
+							<option value="4">Angola</option>
+							<option value="5">Argentina</option>
+							<option value="6">Amenia</option>
+							<option value="7">Austria</option>
+							<option value="8">Azerbaijan</option>
+							<option value="9">Barbados</option>
+							<option value="10">Belarus</option>
+							<option value="11">Belgium</option>
+							<option value="12">Benin</option>
+							<option value="13">Bhutan</option>
+							<option value="14">Boliva</option>
+							<option value="15">Bosnia Herzegovina</option>
+							<option value="16">Botswana</option>
+							<option value="17">Brunei</option>
+							<option value="18">Bulgaria</option>
+							<option value="19">Burkina Faso</option>
+							<option value="20">Burundi</option>
+							<option value="21">Cambodia</option>
+							<option value="22">Cameroon</option>
+							<option value="23">Colombia</option>
+							<option value="24">Congo (Democratic Republic)</option>
+							<option value="25">Congo</option>
+							<option value="26">Cuba</option>
+							<option value="27">Cyprus</option>
+							<option value="28">Djibouti</option>
+							<option value="29">Dominican Republic</option>
+							<option value="30">Ecuador</option>
+							<option value="31">Egypt</option>
+							<option value="32">El Salvador</option>
+							<option value="33">Ethiopia</option>
+							<option value="34">Fiji</option>
+							<option value="35">France</option>
+							<option value="36">Gabon</option>
+							<option value="37">Gambia</option>
+							<option value="38">Germany</option>
+							<option value="39">Ghana</option>
+							<option value="40">Greece</option>
+							<option value="41">Guatemala</option>
+							<option value="42">Guinea</option>
+							<option value="43">Guyana</option>
+							<option value="44">Haiti</option>
+							<option value="45">Honduras</option>
+							<option value="46">Indonesia</option>
+							<option value="47">Iran</option>
+							<option value="48">Iraq</option>
+							<option value="49">Ireland</option>
+							<option value="50">Israel</option>
+							<option value="51">Jamaica</option>
+							<option value="52">Japan</option>
+							<option value="53">Jordan</option>
+							<option value="54">Kazakhstan</option>
+							<option value="55">Kenya</option>
+							<option value="56">Kosovo</option>
+							<option value="57">Kuwait</option>
+							<option value="58">Kyrgyzstan</option>
+							<option value="59">Laos</option>
+							<option value="60">Lebanon</option>
+							<option value="61">Liberia</option>
+							<option value="62">Libya</option>
+							<option value="63">Luxembourg</option>
+							<option value="64">Macedonia</option>
+							<option value="65">Madagascar</option>
+							<option value="66">Malaysia</option>
+							<option value="67">Mali</option>
+							<option value="68">Malta</option>
+							<option value="69">Mauritania</option>
+							<option value="70">Mauritius</option>
+							<option value="71">Montenegro</option>
+							<option value="72">Morocco</option>
+							<option value="73">Mozambique</option>
+							<option value="74">Myanmar</option>
+							<option value="75">Namibia</option>
+							<option value="76">Nepal</option>
+							<option value="77">Netherlands</option>
+							<option value="78">New Zealand</option>
+							<option value="79">Nicaragua</option>
+							<option value="79">Niger</option>
+							<option value="80">Oman</option>
+							<option value="81">Pakistan</option>
+							<option value="82">Palestinian territories</option>
+							<option value="83">Panama</option>
+							<option value="84">Papua New Guinea</option>
+							<option value="85">Paraguay</option>
+							<option value="86">Peru</option>
+							<option value="87">Philippines</option>
+							<option value="88">Poland</option>
+							<option value="89">Portugal</option>
+							<option value="90">Qatar</option>
+							<option value="91">Romania</option>
+							<option value="92">Russia</option>
+							<option value="93">Saudi Arabia</option>
+							<option value="94">Senegal</option>
+							<option value="95">Serbia</option>
+							<option value="96">Sierra Leone</option>
+							<option value="97">Slovakia</option>
+							<option value="98">Somalia</option>
+							<option value="99">South Korea</option>
+							<option value="100">Spain</option>
+							<option value="101">Sudan</option>
+							<option value="102">Suriname</option>
+							<option value="103">Syria</option>
+							<option value="104">Taiwan</option>
+							<option value="105">Tajikistan</option>
+							<option value="106">Tanzania</option>
+							<option value="107">Thailand</option>
+							<option value="108">Timor-Leste</option>
+							<option value="109">Togo</option>
+							<option value="110">Trinidad & Tobago</option>
+							<option value="111">Tunisia</option>
+							<option value="112">Turkey</option>
+							<option value="113">Turkmenistan</option>
+							<option value="114">Uganda</option>
+							<option value="115">United Arab Emirates</option>
+							<option selected>United States</option>
+							<option value="117">Uruguay</option>
+							<option value="118">Uzbekistan</option>
+							<option value="119">Vietnam</option>
+							<option value="120">Yemen</option>
+							<option value="121">Zambia</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<input type="card number" class="form-control" id="cardNumber" placeholder="Card Number">
+					</div>
+
+					<div class="form-row">
+						<div class="form-group col-lg-6 col-md-12">
+							<input type="text" class="form-control" placeholder="Expires">
+						</div>
+						<div class="form-group col-lg-6 col-md-12">
+							<input type="text" class="form-control" placeholder="Security code">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class=" form-group col-lg-6 col-md-12">
+							<input type="text" class="form-control" placeholder="First name">
+						</div>
+						<div class="form-group col-lg-6 col-md-12">
+							<input type="text" class="form-control" placeholder="Last name">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="billing address">Billing address</label>
+						<input type="address" class="form-control" id="billingAddress" placeholder="Street address">
+					</div>
+
+					<div class="form-group">
+						<input type="address" class="form-control" id="Apt" placeholder="Apt., ste., bldg.(optional)" ></label>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="City">
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="state">
+							<option value="1">Alabama</option>
+							<option value="2">Alaska</option>
+							<option value="3">Arizona</option>
+							<option value="4">Arkansas</option>
+							<option value="5">California</option>
+							<option value="6">Colorado</option>
+							<option value="7">Connectict</option>
+							<option value="8">Delaware</option>
+							<option value="9">District of Columbia</option>
+							<option value="10">Florida</option>
+							<option value="11">Georgia</option>
+							<option value="12">Hawaii</option>
+							<option value="13">Idaho</option>
+							<option value="14">Illinois</option>
+							<option value="15">Indiana</option>
+							<option value="16">Iowa</option>
+							<option value="17">Kansas</option>
+							<option value="18">Kentucky</option>
+							<option value="19">Louisana</option>
+							<option value="20">Maine</option>
+							<option value="21">Maryland</option>
+							<option value="22">Massachusetts</option>
+							<option value="23">Michigan</option>
+							<option value="24">Minnesota</option>
+							<option value="25">Mississippi</option>
+							<option value="26">Missouri</option>
+							<option value="27">Montana</option>
+							<option value="28">Nebraska</option>
+							<option value="29">Nevada</option>
+							<option value="30">New Hampshire</option>
+							<option value="31">New Jersey</option>
+							<option value="32">New Mexico</option>
+							<option value="33">New York</option>
+							<option value="34">North Carolina</option>
+							<option value="35">North Dakota</option>
+							<option value="36">Ohio</option>
+							<option value="37">Oklahoma</option>
+							<option value="38">Oregon</option>
+							<option value="39">Pennsylvania</option>
+							<option value="40">Puerto Rico</option>
+							<option value="41">Rhode Island</option>
+							<option value="42">South Carolina</option>
+							<option value="43">South Dakota</option>
+							<option value="44">Tennesse</option>
+							<option value="45">Texas</option>
+							<option value="46">Utah</option>
+							<option value="47">Vermont</option>
+							<option Selected>Virginia</option>
+							<option value="49">Washington</option>
+							<option value="50">West Virginia</option>
+							<option value="51">Wisconsin</option>
+							<option value="52">Wyoming</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="check">
+							<label class="form-check-label" for="check">Share your mailing address with The Veggie Basket so they can acknowledge your donation.</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="my-1 mr-2" for="mobileNum">Contact Information</label>
+					</div>
+
+					<div class="form-row">
+						<div class="form-group col-lg-4 col-md-12">
+								<select class="form-control" id="mobileNum">
+									<option selected>Mobile</option>
+									<option value="1">Home</option>
+									<option value="2">Work</option>
+								</select>
+						</div>
+							<div class="form-group col-lg-8 col-md-12">
+								<input type="text" class="form-control" id="phoneNum" placeholder="Phone number">
+							</div>
+					</div>	
+
+					<div class="form-group">
+						<input type="email" class="form-control" id="Email" placeholder="Email">
+					</div>
+
+					<div class="form-group">
+						<input class="form-chck-input" type="checkbox" id="checkbox">
+						<label class="form-check-label" for="checkbox">Save this information for next time.</label>
+					</div>
+
+					<div>
+						<button type="submit" class="btn btn-primary">Donate Now</button>
+					</div>
+				</form>
+		</div>
+	</section>
+
+	                                      <!------------------------------Footer---------------------------->         
+  <footer>
+    <div class="container text-center" id="footer">
+      <div class="row">
+          <div class="col-lg-4 col-md-12">
+              <a href="index.html">
+              <img src="images/logos.png" alt="logo" id="logo">
+              </a>
+          </div>
+        <div class="col-lg-8" id="text">
+            <a href="about.html">About</a>
+            <a href="ourWork.html">Our Work</a>
+            <a href="getInvolved.html">Get Involved</a>
+            <a href="contactUs.html">Contact Us</a>
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+    <div class="container">
+
+          <div class="text-center" id="social"><!--SOCIAL MEDIA-->
+            <ul>
+              <li>
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+              </li>
+            </ul>
+          </div>
+
+              <div class="text-center" id="bottom" >
+                <p>All Rights Reserved<br>
+                 Site Designed by <a href="#" title="Ashia James"> Ashia James</a></p>
+              </div>
+
+    </div><!--container-->
+
+  </footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
